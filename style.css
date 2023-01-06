@@ -1,0 +1,62 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(226, 226, 226);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    margin-top: 100px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main .parteFigure {
+    padding: 5px;
+}
+
+.main .parteFigure > .imagemLogo {
+    width: 98%;
+    height: 98%;
+    transition: 0.8s;
+}
+
+.main .parteFigure > .imagemLogo:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.main .divPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main .divPrincipal > .button {
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    color: rgb(205, 49, 49);
+}
+
+.main .divPrincipal > .button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(205, 49, 49);
+    background-color: rgb(205, 49, 49);
+    color: #fff;
+}
+
+body .footer .pfooter {
+    font-size: 9px;
+}
